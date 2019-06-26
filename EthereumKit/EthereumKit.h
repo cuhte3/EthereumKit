@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for EthereumKit.
 FOUNDATION_EXPORT double EthereumKitVersionNumber;
