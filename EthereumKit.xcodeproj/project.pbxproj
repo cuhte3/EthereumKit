@@ -7,29 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AA12014206BFE800052AE8B /* CryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA12013206BFE800052AE8B /* CryptoTests.swift */; };
 		1A371091204E8FC0003A40BB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A371090204E8FC0003A40BB /* String+Extension.swift */; };
 		1A371098205050A6003A40BB /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A371097205050A6003A40BB /* Converter.swift */; };
-		1A37109A205052C1003A40BB /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A371099205052C1003A40BB /* ConverterTests.swift */; };
 		7589F03722C38877009558DC /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03522C38877009558DC /* CryptoSwift.framework */; };
 		7589F03822C38877009558DC /* CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03622C38877009558DC /* CryptoEthereumSwift.framework */; };
 		AE0057182042E4CF007AA468 /* RLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057172042E4CF007AA468 /* RLP.swift */; };
 		AE00571A2048F946007AA468 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057192048F946007AA468 /* Address.swift */; };
 		AE00571E2049482A007AA468 /* EIP155Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00571D2049482A007AA468 /* EIP155Signer.swift */; };
-		AE005720204D7D59007AA468 /* RLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00571F204D7D59007AA468 /* RLPTests.swift */; };
-		AE005722204D82A1007AA468 /* EIP155SignerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005721204D82A1007AA468 /* EIP155SignerTests.swift */; };
-		AE005724204D852E007AA468 /* AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005723204D852E007AA468 /* AddressTests.swift */; };
-		AE005726204EE61D007AA468 /* TransactionSigningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005725204EE61D007AA468 /* TransactionSigningTests.swift */; };
 		AE00572A205390E1007AA468 /* EthereumKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE005729205390E1007AA468 /* EthereumKitError.swift */; };
 		AE00572E205391E2007AA468 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00572D205391E2007AA468 /* Configuration.swift */; };
 		AE00573020539565007AA468 /* HDPrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00572F20539565007AA468 /* HDPrivateKey.swift */; };
 		AE00573220539575007AA468 /* HDPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00573120539575007AA468 /* HDPublicKey.swift */; };
 		AE00573420539993007AA468 /* HDWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00573320539993007AA468 /* HDWallet.swift */; };
-		AE0057362053A510007AA468 /* PrivateKeyAndPublicKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057352053A510007AA468 /* PrivateKeyAndPublicKeyTests.swift */; };
-		AE0057382053A5E4007AA468 /* WalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057372053A5E4007AA468 /* WalletTests.swift */; };
-		AE1270E920E8B1CA00487956 /* HDPublicKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1270E820E8B1CA00487956 /* HDPublicKeyTests.swift */; };
-		AE14A610206F5555003A63FF /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE14A60A206F552D003A63FF /* CryptoSwift.framework */; };
-		AE14A611206F5555003A63FF /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE14A60A206F552D003A63FF /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE14A6242070A98D003A63FF /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14A6232070A98D003A63FF /* English.swift */; };
 		AE14A6262070A9AE003A63FF /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE14A6252070A9AE003A63FF /* Japanese.swift */; };
 		AE1A4B8A206558B300346BA2 /* JSONRPCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A4B89206558B300346BA2 /* JSONRPCError.swift */; };
@@ -38,7 +27,6 @@
 		AE1BF3332028AEA400344FB0 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BF3322028AEA400344FB0 /* PrivateKey.swift */; };
 		AE1BF3352028B17B00344FB0 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BF3342028B17B00344FB0 /* PublicKey.swift */; };
 		AE1BF3372028B5B000344FB0 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BF3362028B5B000344FB0 /* Crypto.swift */; };
-		AE1F8C21208CDA0C0088A043 /* MessageSigningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F8C20208CDA0C0088A043 /* MessageSigningTests.swift */; };
 		AE22CA2320A7711A0033FECD /* RawTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22CA2220A7711A0033FECD /* RawTransaction.swift */; };
 		AE22CA2520A831620033FECD /* SentTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22CA2420A831620033FECD /* SentTransaction.swift */; };
 		AE295DE720615AC500F774A6 /* SMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE295DE620615AC500F774A6 /* SMP.swift */; };
@@ -48,14 +36,6 @@
 		AE354224202D46E400007B80 /* Base58Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE354223202D46E400007B80 /* Base58Encode.swift */; };
 		AE35422F20300E4900007B80 /* EIP55.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE35422E20300E4900007B80 /* EIP55.swift */; };
 		AE3EB60320AC8D3600D61CE6 /* ERC20.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EB60220AC8D3600D61CE6 /* ERC20.swift */; };
-		AE3EB60720AC941A00D61CE6 /* ERC20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EB60620AC941A00D61CE6 /* ERC20Tests.swift */; };
-		AE4B2E8720EB5DF60080F3EA /* BIP32Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B2E8620EB5DF60080F3EA /* BIP32Tests.swift */; };
-		AE53C96C20D4CF1C00714EF4 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53C96B20D4CF1C00714EF4 /* NetworkTests.swift */; };
-		AE5EE9BD20DB8425007F9D72 /* BalanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE9BC20DB8425007F9D72 /* BalanceTests.swift */; };
-		AE5EE9BF20DB84C2007F9D72 /* BlockParameterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE9BE20DB84C2007F9D72 /* BlockParameterTests.swift */; };
-		AE5EE9C120DB8615007F9D72 /* RawTransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE9C020DB8615007F9D72 /* RawTransactionTests.swift */; };
-		AE5EE9C320DB86E7007F9D72 /* TransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE9C220DB86E7007F9D72 /* TransactionTests.swift */; };
-		AE5EE9C520DB882F007F9D72 /* SentTransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE9C420DB882F007F9D72 /* SentTransactionTests.swift */; };
 		AE614679208744E600A9E77A /* HTTPClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE614678208744E600A9E77A /* HTTPClientType.swift */; };
 		AE61467B20874FBE00A9E77A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61467A20874FBE00A9E77A /* HTTPClient.swift */; };
 		AE61467D20874FE700A9E77A /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61467C20874FE700A9E77A /* Cancellable.swift */; };
@@ -74,65 +54,13 @@
 		AE8387ED2038041B00FAC88F /* BlockParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8387EC2038041B00FAC88F /* BlockParameter.swift */; };
 		AE8387F7203B131A00FAC88F /* Etherscan.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8387F6203B131A00FAC88F /* Etherscan.swift */; };
 		AE838801203B236300FAC88F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE838800203B236300FAC88F /* Transaction.swift */; };
-		AE90A0781FFA698D005ED7AF /* EthereumKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE90A0771FFA698D005ED7AF /* EthereumKitTests.swift */; };
-		AE90A07A1FFA698D005ED7AF /* EthereumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */; };
 		AEA346CB209CD59C00E53536 /* URLEncodedSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA346CA209CD59C00E53536 /* URLEncodedSerialization.swift */; };
 		AEA346CD209CD76F00E53536 /* JSONBodySerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA346CC209CD76F00E53536 /* JSONBodySerialization.swift */; };
-		AEB4C5DF20C03D62001D96BF /* MnemonicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB4C5DE20C03D62001D96BF /* MnemonicTests.swift */; };
 		AEBA90DA1FFA21ED003EA2BA /* EthereumKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBA90D81FFA21ED003EA2BA /* EthereumKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEBA90F31FFA2C6A003EA2BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA90F21FFA2C6A003EA2BA /* AppDelegate.swift */; };
-		AEBA90F51FFA2C6A003EA2BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA90F41FFA2C6A003EA2BA /* ViewController.swift */; };
-		AEBA90F81FFA2C6A003EA2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBA90F61FFA2C6A003EA2BA /* Main.storyboard */; };
-		AEBA90FA1FFA2C6A003EA2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBA90F91FFA2C6A003EA2BA /* Assets.xcassets */; };
-		AEBA90FD1FFA2C6A003EA2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBA90FB1FFA2C6A003EA2BA /* LaunchScreen.storyboard */; };
-		AEBA91041FFA2C74003EA2BA /* EthereumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */; };
-		AEBA91051FFA2C74003EA2BA /* EthereumKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AEDC134920B9133F00C3B9E8 /* CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC134720B90D4100C3B9E8 /* CryptoEthereumSwift.framework */; };
-		AEDC134A20B9133F00C3B9E8 /* CryptoEthereumSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC134720B90D4100C3B9E8 /* CryptoEthereumSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C014FDB4219A28AB00466668 /* Geth+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014FDB3219A28AB00466668 /* Geth+Contract.swift */; };
 		C014FDB6219A307900466668 /* ERC20+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014FDB5219A307900466668 /* ERC20+Contract.swift */; };
 		D77FB336203DE3D0003213DB /* SMP+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FB335203DE3D0003213DB /* SMP+Extensions.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AE90A07B1FFA698D005ED7AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBA90CC1FFA21ED003EA2BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBA90D41FFA21ED003EA2BA;
-			remoteInfo = WalletKit;
-		};
-		AE90A0801FFA69D1005ED7AF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBA90CC1FFA21ED003EA2BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBA90EF1FFA2C6A003EA2BA;
-			remoteInfo = Example;
-		};
-		AEBA91061FFA2C74003EA2BA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AEBA90CC1FFA21ED003EA2BA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEBA90D41FFA21ED003EA2BA;
-			remoteInfo = WalletKit;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AEBA91081FFA2C74003EA2BA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AEDC134A20B9133F00C3B9E8 /* CryptoEthereumSwift.framework in Embed Frameworks */,
-				AE14A611206F5555003A63FF /* CryptoSwift.framework in Embed Frameworks */,
-				AEBA91051FFA2C74003EA2BA /* EthereumKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0AA12013206BFE800052AE8B /* CryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTests.swift; sourceTree = "<group>"; };
@@ -201,7 +129,6 @@
 		AE8387EC2038041B00FAC88F /* BlockParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockParameter.swift; sourceTree = "<group>"; };
 		AE8387F6203B131A00FAC88F /* Etherscan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etherscan.swift; sourceTree = "<group>"; };
 		AE838800203B236300FAC88F /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		AE90A0751FFA698D005ED7AF /* EthereumKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EthereumKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE90A0771FFA698D005ED7AF /* EthereumKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumKitTests.swift; sourceTree = "<group>"; };
 		AE90A0791FFA698D005ED7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEA346CA209CD59C00E53536 /* URLEncodedSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLEncodedSerialization.swift; sourceTree = "<group>"; };
@@ -210,7 +137,6 @@
 		AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EthereumKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBA90D81FFA21ED003EA2BA /* EthereumKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthereumKit.h; sourceTree = "<group>"; };
 		AEBA90D91FFA21ED003EA2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBA90F01FFA2C6A003EA2BA /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBA90F21FFA2C6A003EA2BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBA90F41FFA2C6A003EA2BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEBA90F71FFA2C6A003EA2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -224,30 +150,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE90A0721FFA698D005ED7AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE90A07A1FFA698D005ED7AF /* EthereumKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AEBA90D11FFA21ED003EA2BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7589F03722C38877009558DC /* CryptoSwift.framework in Frameworks */,
 				7589F03822C38877009558DC /* CryptoEthereumSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBA90ED1FFA2C6A003EA2BA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEDC134920B9133F00C3B9E8 /* CryptoEthereumSwift.framework in Frameworks */,
-				AE14A610206F5555003A63FF /* CryptoSwift.framework in Frameworks */,
-				AEBA91041FFA2C74003EA2BA /* EthereumKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */,
-				AEBA90F01FFA2C6A003EA2BA /* Example.app */,
-				AE90A0751FFA698D005ED7AF /* EthereumKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -496,25 +402,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AE90A0741FFA698D005ED7AF /* EthereumKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE90A07F1FFA698D005ED7AF /* Build configuration list for PBXNativeTarget "EthereumKitTests" */;
-			buildPhases = (
-				AE90A0711FFA698D005ED7AF /* Sources */,
-				AE90A0721FFA698D005ED7AF /* Frameworks */,
-				AE90A0731FFA698D005ED7AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE90A07C1FFA698D005ED7AF /* PBXTargetDependency */,
-				AE90A0811FFA69D1005ED7AF /* PBXTargetDependency */,
-			);
-			name = EthereumKitTests;
-			productName = WalletKitTests;
-			productReference = AE90A0751FFA698D005ED7AF /* EthereumKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		AEBA90D41FFA21ED003EA2BA /* EthereumKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEBA90DD1FFA21ED003EA2BA /* Build configuration list for PBXNativeTarget "EthereumKit" */;
@@ -534,25 +421,6 @@
 			productReference = AEBA90D51FFA21ED003EA2BA /* EthereumKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AEBA90EF1FFA2C6A003EA2BA /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AEBA90FF1FFA2C6A003EA2BA /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				AEBA90EC1FFA2C6A003EA2BA /* Sources */,
-				AEBA90ED1FFA2C6A003EA2BA /* Frameworks */,
-				AEBA90EE1FFA2C6A003EA2BA /* Resources */,
-				AEBA91081FFA2C74003EA2BA /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AEBA91071FFA2C74003EA2BA /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = AEBA90F01FFA2C6A003EA2BA /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -563,20 +431,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = yuzushioh;
 				TargetAttributes = {
-					AE90A0741FFA698D005ED7AF = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AEBA90EF1FFA2C6A003EA2BA;
-					};
 					AEBA90D41FFA21ED003EA2BA = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
-						ProvisioningStyle = Manual;
-					};
-					AEBA90EF1FFA2C6A003EA2BA = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -595,34 +452,15 @@
 			projectRoot = "";
 			targets = (
 				AEBA90D41FFA21ED003EA2BA /* EthereumKit */,
-				AEBA90EF1FFA2C6A003EA2BA /* Example */,
-				AE90A0741FFA698D005ED7AF /* EthereumKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE90A0731FFA698D005ED7AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AEBA90D31FFA21ED003EA2BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AEBA90EE1FFA2C6A003EA2BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBA90FD1FFA2C6A003EA2BA /* LaunchScreen.storyboard in Resources */,
-				AEBA90FA1FFA2C6A003EA2BA /* Assets.xcassets in Resources */,
-				AEBA90F81FFA2C6A003EA2BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,33 +484,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE90A0711FFA698D005ED7AF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE005726204EE61D007AA468 /* TransactionSigningTests.swift in Sources */,
-				AE0057382053A5E4007AA468 /* WalletTests.swift in Sources */,
-				AEB4C5DF20C03D62001D96BF /* MnemonicTests.swift in Sources */,
-				AE5EE9C320DB86E7007F9D72 /* TransactionTests.swift in Sources */,
-				AE005720204D7D59007AA468 /* RLPTests.swift in Sources */,
-				AE0057362053A510007AA468 /* PrivateKeyAndPublicKeyTests.swift in Sources */,
-				AE4B2E8720EB5DF60080F3EA /* BIP32Tests.swift in Sources */,
-				AE5EE9C520DB882F007F9D72 /* SentTransactionTests.swift in Sources */,
-				0AA12014206BFE800052AE8B /* CryptoTests.swift in Sources */,
-				AE53C96C20D4CF1C00714EF4 /* NetworkTests.swift in Sources */,
-				AE5EE9C120DB8615007F9D72 /* RawTransactionTests.swift in Sources */,
-				AE1F8C21208CDA0C0088A043 /* MessageSigningTests.swift in Sources */,
-				AE1270E920E8B1CA00487956 /* HDPublicKeyTests.swift in Sources */,
-				AE5EE9BF20DB84C2007F9D72 /* BlockParameterTests.swift in Sources */,
-				AE5EE9BD20DB8425007F9D72 /* BalanceTests.swift in Sources */,
-				AE3EB60720AC941A00D61CE6 /* ERC20Tests.swift in Sources */,
-				AE90A0781FFA698D005ED7AF /* EthereumKitTests.swift in Sources */,
-				AE005724204D852E007AA468 /* AddressTests.swift in Sources */,
-				1A37109A205052C1003A40BB /* ConverterTests.swift in Sources */,
-				AE005722204D82A1007AA468 /* EIP155SignerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AEBA90D01FFA21ED003EA2BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,34 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEBA90EC1FFA2C6A003EA2BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEBA90F51FFA2C6A003EA2BA /* ViewController.swift in Sources */,
-				AEBA90F31FFA2C6A003EA2BA /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AE90A07C1FFA698D005ED7AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBA90D41FFA21ED003EA2BA /* EthereumKit */;
-			targetProxy = AE90A07B1FFA698D005ED7AF /* PBXContainerItemProxy */;
-		};
-		AE90A0811FFA69D1005ED7AF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBA90EF1FFA2C6A003EA2BA /* Example */;
-			targetProxy = AE90A0801FFA69D1005ED7AF /* PBXContainerItemProxy */;
-		};
-		AEBA91071FFA2C74003EA2BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AEBA90D41FFA21ED003EA2BA /* EthereumKit */;
-			targetProxy = AEBA91061FFA2C74003EA2BA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AEBA90F61FFA2C6A003EA2BA /* Main.storyboard */ = {
@@ -779,48 +563,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AE90A07D1FFA698D005ED7AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T7JPNQ2UD;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/crypto/include";
-				INFOPLIST_FILE = EthereumKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.EthereumKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Debug;
-		};
-		AE90A07E1FFA698D005ED7AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T7JPNQ2UD;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/crypto/include";
-				INFOPLIST_FILE = EthereumKitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.EthereumKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
-			};
-			name = Release;
-		};
 		AEBA90DB1FFA21ED003EA2BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -974,7 +716,7 @@
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64";
 			};
@@ -1009,70 +751,15 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "i386 x86_64";
-			};
-			name = Release;
-		};
-		AEBA91001FFA2C6A003EA2BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AEBA91011FFA2C6A003EA2BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE90A07F1FFA698D005ED7AF /* Build configuration list for PBXNativeTarget "EthereumKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE90A07D1FFA698D005ED7AF /* Debug */,
-				AE90A07E1FFA698D005ED7AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AEBA90CF1FFA21ED003EA2BA /* Build configuration list for PBXProject "EthereumKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1087,15 +774,6 @@
 			buildConfigurations = (
 				AEBA90DE1FFA21ED003EA2BA /* Debug */,
 				AEBA90DF1FFA21ED003EA2BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AEBA90FF1FFA2C6A003EA2BA /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AEBA91001FFA2C6A003EA2BA /* Debug */,
-				AEBA91011FFA2C6A003EA2BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
