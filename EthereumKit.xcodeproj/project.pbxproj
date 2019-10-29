@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		1A371091204E8FC0003A40BB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A371090204E8FC0003A40BB /* String+Extension.swift */; };
 		1A371098205050A6003A40BB /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A371097205050A6003A40BB /* Converter.swift */; };
-		7589F03722C38877009558DC /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03522C38877009558DC /* CryptoSwift.framework */; };
-		7589F03822C38877009558DC /* CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03622C38877009558DC /* CryptoEthereumSwift.framework */; };
+		751CEA3223605500004FA7A1 /* CryptoEthereumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03622C38877009558DC /* CryptoEthereumSwift.framework */; };
+		751CEA3323605500004FA7A1 /* CryptoEthereumSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03622C38877009558DC /* CryptoEthereumSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		751CEA3523605502004FA7A1 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03522C38877009558DC /* CryptoSwift.framework */; };
+		751CEA3623605502004FA7A1 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7589F03522C38877009558DC /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE0057182042E4CF007AA468 /* RLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057172042E4CF007AA468 /* RLP.swift */; };
 		AE00571A2048F946007AA468 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0057192048F946007AA468 /* Address.swift */; };
 		AE00571E2049482A007AA468 /* EIP155Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE00571D2049482A007AA468 /* EIP155Signer.swift */; };
@@ -61,6 +63,21 @@
 		C014FDB6219A307900466668 /* ERC20+Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = C014FDB5219A307900466668 /* ERC20+Contract.swift */; };
 		D77FB336203DE3D0003213DB /* SMP+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FB335203DE3D0003213DB /* SMP+Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		751CEA3423605500004FA7A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				751CEA3323605500004FA7A1 /* CryptoEthereumSwift.framework in Embed Frameworks */,
+				751CEA3623605502004FA7A1 /* CryptoSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0AA12013206BFE800052AE8B /* CryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTests.swift; sourceTree = "<group>"; };
@@ -154,8 +171,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7589F03722C38877009558DC /* CryptoSwift.framework in Frameworks */,
-				7589F03822C38877009558DC /* CryptoEthereumSwift.framework in Frameworks */,
+				751CEA3223605500004FA7A1 /* CryptoEthereumSwift.framework in Frameworks */,
+				751CEA3523605502004FA7A1 /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +428,7 @@
 				AEBA90D11FFA21ED003EA2BA /* Frameworks */,
 				AEBA90D21FFA21ED003EA2BA /* Headers */,
 				AEBA90D31FFA21ED003EA2BA /* Resources */,
+				751CEA3423605500004FA7A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -690,23 +708,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HBPT8C8527;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/**";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/EthereumKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.EthereumKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -726,23 +742,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HBPT8C8527;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-					"$(PROJECT_DIR)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/**";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/EthereumKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = yuzushioh.EthereumKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

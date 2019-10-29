@@ -7,17 +7,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>CryptoEthereumSwift</string>
+	<string>CryptoSwift</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yuzushioh.CryptoEthereumSwift</string>
+	<string>com.krzyzanowskim.CryptoSwift</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>CryptoEthereumSwift</string>
+	<string>CryptoSwift</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1.3</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -43,6 +45,9 @@
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>4</integer>
 	</array>
 </dict>
 </plist>
