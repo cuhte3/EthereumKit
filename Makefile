@@ -1,2 +1,2 @@
 bootstrap:
-	carthage bootstrap --platform ios
+	carthage bootstrap --platform all
